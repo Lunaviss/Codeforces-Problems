@@ -17,13 +17,13 @@ int main(int argc, char const *argv[])
 	int n;
 	cin >> n;
 	string str[n];
-	while (n--)
+	for (int i = 0; i < n ; ++i)
 	{
 		string localStr;
 		cin >> localStr;
 		str[i] = localStr;
 	}
-	while (n--) 
+	for (int i = 0; i < n ; ++i)
 	{
 		solve(str[i]);
 		cout << '\n';
