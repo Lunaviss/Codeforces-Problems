@@ -18,9 +18,9 @@ void merge(int arr[], int const l, int const m, int const r) {
 	int right[r_length];
 
 	for (i = 0; i < l_length; ++i)
-    	left[i] = arr[l + i];
+    		left[i] = arr[l + i];
 	for (j = 0; j < r_length; ++j)
-    	right[j] = arr[m + 1 + j];
+    		right[j] = arr[m + 1 + j];
 
     i = 0;
     j = 0;
