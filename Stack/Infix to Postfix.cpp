@@ -26,8 +26,6 @@ void infixToPostfix(string s) {
 	for(int i = 0; i < s.length(); ++i) {
 		char c = s[i]; 
 
-		if(c == ' ') continue;
-
 		if (isOperand(c))
 			result += c;
 		else if (c == '(')
